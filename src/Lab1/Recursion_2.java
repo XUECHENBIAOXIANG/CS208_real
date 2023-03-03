@@ -7,7 +7,7 @@ public class Recursion_2 {
         System.out.println(tile(x,z));
 
     }
-    static int tile(int n ,int zong[]) {
+    static int tile(int n , int[] zong) {
        if (zong[n]>0){
            return zong[n];
        }
